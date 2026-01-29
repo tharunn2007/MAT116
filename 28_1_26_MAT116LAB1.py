@@ -56,6 +56,19 @@ for p in (True,False):
     for q in (True,False):
         print (p,"\t",q ,"\t",q1(p,q))
 print()
+
+
+#2. (𝑝 → 𝑞)⋁(𝑞 → 𝑟) 
+def q2(p,q,r):
+    return((not p or q)or (not q or r))
+print("________________________________")
+print("p \t q \t r \t (r → q)⋁(q → r)")
+print("________________________________")
+for p in (True,False):
+    for q in (True,False):
+        for r in (True,False):
+            print (p,"\t",q ,"\t",r,"\t",q2(p,q,r))
+
       
 
 
