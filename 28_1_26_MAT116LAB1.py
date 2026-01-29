@@ -69,6 +69,20 @@ for p in (True,False):
         for r in (True,False):
             print (p,"\t",q ,"\t",r,"\t",q2(p,q,r))
 
+
+#3.(𝑝 → 𝑞)⋀(𝑞 → 𝑟)
+p=[True,False]
+q=[True,False]
+r=[True,False]
+print("___________________________")
+print("p \t q \t r \t TRUTH TABLE")
+print("___________________________")
+for p in (True,False):
+    for q in (True,False):
+        for r in (True,False):
+            print(p,"\t",q,"\t",r,"\t",(not p or q)and(not q or r))
+print()
+
       
 
 
