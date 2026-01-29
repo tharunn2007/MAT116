@@ -44,3 +44,20 @@ print()
 
 
 
+#practice questions
+"""justification for each step in the proof that ((p ∨ q) ∧ (p ∨ ¬q)) ∨ q
+simplifies to (p ∨ q)."""
+def q1(p,q):
+    return((p or q)and(p or not q)or q)
+print("____________")
+print("p \t q \t ((p ∨ q) ∧ (p ∨ ¬q)) ∨ q")
+print("____________")
+for p in (True,False):
+    for q in (True,False):
+        print (p,"\t",q ,"\t",q1(p,q))
+print()
+      
+
+
+
+
