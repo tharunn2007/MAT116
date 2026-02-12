@@ -83,6 +83,8 @@ for p in (True,False):
             print(p,"\t",q,"\t",r,"\t",(not p or q)and(not q or r))
 print()
 
+
+
       
 
 
