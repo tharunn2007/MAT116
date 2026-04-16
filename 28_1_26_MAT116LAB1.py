@@ -85,6 +85,20 @@ print()
 
 
 
+#RECURSIVE FUNCTIONS inlcuding fibonacci,factorial and tower of hanoi
+
+#recursive fibonacci 
+def fibonacci(n):
+    if n==0 or n==1:
+        return 1
+    return fibonacci(n-1)+fibonacci(n-2)
+n=int(input("Enter number:"))
+for i in range(n+1):
+
+    print(fibonacci(i))
+
+
+
       
 
 
